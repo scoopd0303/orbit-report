@@ -7,6 +7,10 @@
     background-color: #da8a8a;
 }
 
+h3 {
+    font-size: xx-large;
+}
+
 table {
   color: #111;
   border-radius: 5px;
@@ -27,4 +31,11 @@ th, td {
     text-align: left;
     margin: 5px 10px;
     padding: 6px;
+}
+
+.table-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
 }
