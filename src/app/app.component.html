@@ -17,9 +17,12 @@
     <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
   </li>
 </ul> -->
-
-<app-orbit-list [satellites]="displayList"></app-orbit-list>
-<div class="search-form">Search:
-  <input #searchTerm type="text" (keyup.enter)="search(searchTerm.value)">
-  <button (click)="search(searchTerm.value)">Search</button>
+<div class="container">
+  <div>
+    <app-orbit-list [satellites]="displayList"></app-orbit-list>
+    <div class="search-form">Search:
+      <input #searchTerm type="text" (keyup.enter)="search(searchTerm.value)">
+      <button (click)="search(searchTerm.value)">Search</button>
+    </div>
+  </div>
 </div>
