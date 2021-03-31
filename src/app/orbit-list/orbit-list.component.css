@@ -14,6 +14,8 @@ table {
   margin: 12px 0;
   min-width: 300px;
   background: #dad8d8;
+  background: rgb(245, 231, 230);
+  border: 1px solid #34495E;
 }
 
 .header-row {
