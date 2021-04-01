@@ -1,11 +1,17 @@
 .search-form {
     margin-bottom: 40px;
+} .search-form span {
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 12px;
+    border: 1px solid #34495E;
+    border-radius: 3px;
 }
 
 button {
     margin-left: 10px;
     color: #fff;
     background-color: #009b25;
+    background-color: #34495E;
     border-radius: 4px;
     padding: 2px 5px;
     font-size: 18px;

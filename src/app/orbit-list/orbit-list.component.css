@@ -7,15 +7,24 @@
     background-color: #da8a8a;
 }
 
+.zebraStripe {
+    background-color: rgba(221,221,85, 0.5);
+}
+
 h3 {
     font-size: xx-large;
+} h3 span {
+    padding: 10px;
+    border: 1px solid #34495E;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.7);
 }
 
 table {
   color: #111;
-  border-radius: 5px;
+  border-radius: 3px;
   overflow: hidden;
-  margin: 12px 0;
+  margin: 12px 0 24px;
   min-width: 300px;
   background: #dad8d8;
   background: rgb(245, 231, 230);
@@ -33,9 +42,3 @@ th, td {
     padding: 6px;
 }
 
-.table-container {
-    /* display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    /* align-items: center; */
-}
