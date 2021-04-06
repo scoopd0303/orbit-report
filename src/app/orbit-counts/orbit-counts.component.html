@@ -1,0 +1,12 @@
+<div>
+    <h3>Satellite Counts:</h3>
+    <div class="counts">
+        <div>Total: <span>{{satellites.length}}</span></div>
+        <div *ngIf="satelliteCount(satellites, 'Space Debris') !== 0">Space Debris: <span>{{satelliteCount(satellites, 'Space Debris')}}</span></div>
+        <div *ngIf="satelliteCount(satellites, 'Communication') !== 0">Communication: <span>{{satelliteCount(satellites, 'Communication')}}</span></div>
+        <div *ngIf="satelliteCount(satellites, 'Probe') !== 0">Probe: <span>{{satelliteCount(satellites, 'Probe')}}</span></div>
+        <div *ngIf="satelliteCount(satellites, 'Positioning') !== 0">Positioning: <span>{{satelliteCount(satellites, 'Positioning')}}</span></div>
+        <div *ngIf="satelliteCount(satellites, 'Space Station') !== 0">Space Station: <span>{{satelliteCount(satellites, 'Space Station')}}</span></div>
+        <div *ngIf="satelliteCount(satellites, 'Telescope') !== 0">Telescope: <span>{{satelliteCount(satellites, 'Telescope')}}</span></div>
+    </div>
+</div>

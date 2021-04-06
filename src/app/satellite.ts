@@ -4,7 +4,6 @@ export class Satellite {
     type: string;
     operational: boolean;
     launchDate: string;
-    number: number;
 
     constructor(name: string, type: string, launchDate: string, orbitType: string, operational: boolean) {
         this.name = name;
@@ -20,12 +19,4 @@ export class Satellite {
         }
         return false;
     }
-
-    zebraStripes() {
-        if(this.number % 2 === 0) {
-            return true;
-        }
-        return false;
-    }
-
 }

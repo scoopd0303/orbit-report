@@ -26,10 +26,6 @@ export class OrbitListComponent implements OnInit {
       return 0;
     });
 
-    for(let i =0; i < this.satellites.length; i++) {
-      this.satellites[i].number = i;
-    }
-
   }
 
 }
